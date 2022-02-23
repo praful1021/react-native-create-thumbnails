@@ -5,6 +5,7 @@ export default function App() {
   const [image, setImage] = React.useState('');
 
   React.useEffect(() => {
+    //exaple image url
     const URL =
       'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4';
     createThumbnail(URL, (uri: any) => {
